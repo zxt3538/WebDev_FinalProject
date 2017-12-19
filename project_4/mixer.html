@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audio Viz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href ="css/mixer.css">
+        <script type = "text/javascript" src="js/mixer.js"></script>
+    </head>
+    
+    <body>
+        <div id = "container">
+            <div id = "fileSlot" class ="box">
+                <div id = "title">
+                    <h1> Visualizer Experiment</h1>
+                </div>
+                <label for = "upload_file">Select your music to jam</label>
+                <input type = "file" id = upload_file>
+            </div>
+        <div id = "visualizer"> 
+            <canvas id = 'portrait' width = "1200" height = "600"></canvas>
+        </div>
+        </div>
+    </body>
+</html>
+
+<!-- JavaScript based on the demo @  (http://wayou.github.io/HTML5_Audio_Visualizer/) 
+
+     - Wanted to incorporate an embedded song to play, however I couldn't find a definite       answer that didn't involve referencing several other js files. For example, 
+        https://mir-cdn.behance.net/v1/rendition/project_modules/1400/eb591949260123.596f8b760ab20.png and
+        https://codepen.io/seanfree/pen/jVBOpZ
+
+        -->

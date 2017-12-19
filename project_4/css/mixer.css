@@ -1,0 +1,71 @@
+/*
+html,body{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+body{
+    background: '#303030';
+    overflow: hidden;
+}
+*/
+#container{
+    margin: 0 auto;
+    position: absolute;
+    display:block;
+    width: 90%;
+    height: 15%;
+    padding-left: 30px;
+}
+
+html, body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: #fff;
+}
+
+body{
+    overflow: hidden;
+    background: linear-gradient(#242424, #3B3B3B);
+}
+
+#portrait{
+    margin: 0 auto;
+    display: flex;
+}
+
+#visualizer{
+    justify-content: center;
+    padding: 10px;
+}
+
+#upload_file{
+    display: block;
+    font-size: 14px;
+    width: 200px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+input[type = "file"]{
+    border: 1px solid #fff;
+}
+
+@media screen and (max-width: 550px) {
+    canvas{
+        margin: 0 auto;
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    canvas{
+        width:70%;
+        height: 70%;
+    }
+}
